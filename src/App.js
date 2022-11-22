@@ -103,15 +103,14 @@ const App = () => {
       <Content>
         <Input value={currentNumber}/>
         <Row>
-          
           <Button label='C' onClick={handleOnClear} />
-          <Button label='*' onClick={handleMultiplyNumbers} />
+          <Button label='×' onClick={handleMultiplyNumbers} />
         </Row>
         <Row>
           <Button label='7' onClick={() => handleAddNumber('7')} />
           <Button label='8' onClick={() => handleAddNumber('8')} />
           <Button label='9' onClick={() => handleAddNumber('9')} />
-          <Button label='/' onClick={handleDivNumbers} />
+          <Button label='÷' onClick={handleDivNumbers} />
         </Row>
         <Row>
           <Button label='4' onClick={() => handleAddNumber('4')} />
